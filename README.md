@@ -7,8 +7,12 @@ The ball_chaser package gives the robot the ability to chase a white ball as it 
 To try out the application, clone and build the package and run the following commands:
 
 Clone the workspace:
-`git clone `
+`git clone https://github.com/Anna-LeeMcLean/Ball-Chasing-Robot.git`
+
+Build the workspace:
 `catkin_make`
+
+Source the workspace:
 `source devel/setup.bash`
 
 Launch the Gazebo world with the custom robot and white ball:
