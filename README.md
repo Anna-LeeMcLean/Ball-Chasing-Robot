@@ -4,16 +4,17 @@ This project implements a custom robot which chases a white ball in a Gazebo wor
 The my_robot package implements a cusotm robot which is equipped with a camera and a Hokuyo lidar sensor for object detection.
 The ball_chaser package gives the robot the ability to chase a white ball as it is moved by the user through the Gazebo world. 
 
-To try out the application, clone and build the package and run the following commands:
+To try out the application, clone, build and source the packages 
 
-Clone the workspace:
 `git clone https://github.com/Anna-LeeMcLean/Ball-Chasing-Robot.git`
 
-Build the workspace:
+`cd Ball-Chasing-Robot`
+
 `catkin_make`
 
-Source the workspace:
 `source devel/setup.bash`
+
+Then run the following commands:
 
 Launch the Gazebo world with the custom robot and white ball:
 `roslaunch my_robot world.launch`
