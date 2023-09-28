@@ -23,9 +23,10 @@ Launch the ball_chaser node which allows the robot to follow the white ball:
 `roslaunch ball_chaser ball_chaser.launch`
 
 Visualize the images from the robot's camera:
+
 `rosrun rqt_image_view rqt_image_view`
 
 Now place the white ball at different positions in front of the robot and watch the robot chase the ball!
 
-https://github.com/Anna-LeeMcLean/Ball-Chasing-Robot/assets/60242931/3e51c975-aaca-46df-adc2-e5b1ad07eaab
+https://github.com/Anna-LeeMcLean/Ball-Chasing-Robot/assets/60242931/6571f02d-572f-49a1-ba2b-f131bc7a18ad
 
